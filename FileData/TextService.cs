@@ -1,26 +1,25 @@
-﻿using System.Text;
-using System.Text.Json;
-using Application.Contracts;
+﻿using Application.Contracts;
 using Domain.Models;
 
 namespace FileData;
 
 public class TextService : ITextService
 {
-    private const string CatFactFileName = "cat_facts.txt";
+    private static readonly DirectoryInfo Current = Directory.GetParent(Environment.CurrentDirectory);
+    private static readonly string FilePath = Path.Combine(Current.ToString(), "FileData", "Data", "cat_facts.txt");
 
     public async Task SaveToFile(CatFact fact)
     {
-        if (!File.Exists(CatFactFileName))
+        if (!File.Exists(FilePath))
         {
-            await using (StreamWriter sw = File.CreateText(CatFactFileName))
+            await using (var sw = File.CreateText(FilePath))
             {
                 await sw.WriteLineAsync(fact.ToString());
             }
         }
-        else if (File.Exists(CatFactFileName))
+        else if (File.Exists(FilePath))
         {
-            await using (StreamWriter sw = File.AppendText(CatFactFileName))
+            await using (var sw = File.AppendText(FilePath))
             {
                 await sw.WriteLineAsync(fact.ToString());
             }
@@ -29,12 +28,12 @@ public class TextService : ITextService
 
     public async Task<string> ReadFromFile()
     {
-        if (File.Exists(CatFactFileName))
+        if (File.Exists(FilePath))
         {
-            using (StreamReader sr = File.OpenText(CatFactFileName))
+            using (var sr = File.OpenText(FilePath))
             {
-                var test = await sr.ReadToEndAsync();
-                return test;
+                var facts = await sr.ReadToEndAsync();
+                return facts;
             }
         }
 

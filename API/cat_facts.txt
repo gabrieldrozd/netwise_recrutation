@@ -1,4 +1,0 @@
-"fact": "The first official cat show in the UK was organised at Crystal Palace in 1871.", "length": 78
-"fact": "The heaviest cat on record is Himmy, a Tabby from Queensland, Australia. He weighed nearly 47 pounds (21 kg). He died at the age of 10.", "length": 135
-"fact": "During the Middle Ages, cats were associated with withcraft, and on St. John’s Day, people all over Europe would stuff them into sacks and toss the cats into bonfires. On holy days, people celebrated by tossing cats from church towers.", "length": 235
-"fact": "The leopard is the most widespread of all big cats.", "length": 51

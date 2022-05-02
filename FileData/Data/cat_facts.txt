@@ -1,0 +1,11 @@
+"fact": "According to a Gallup poll, most American pet owners obtain their cats by adopting strays.", "length": 90
+"fact": "Purring does not always indicate that a cat is happy and healthy - some cats will purr loudly when they are terrified or in pain.", "length": 129
+"fact": "While many parts of Europe and North America consider the black cat a sign of bad luck, in Britain and Australia, black cats are considered lucky.", "length": 146
+"fact": "The Maine Coon cat is America's only natural breed of domestic feline. It is 4 to 5 times larger than the Singapura, the smallest breed of cat.", "length": 143
+"fact": "In one stride, a cheetah can cover 23 to 26 feet (7 to 8 meters).", "length": 65
+"fact": "In an average year, cat owners in the United States spend over $2 billion on cat food.", "length": 86
+"fact": "British cat owners spend roughly 550 million pounds yearly on cat food.", "length": 71
+"fact": "A cat's hearing is much more sensitive than humans and dogs.", "length": 60
+"fact": "All cats need taurine in their diet to avoid blindness. Cats must also have fat in their diet as they are unable to produce it on their own.", "length": 140
+"fact": "Approximately 40,000 people are bitten by cats in the U.S. annually.", "length": 68
+"fact": "The world’s rarest coffee, Kopi Luwak, comes from Indonesia where a wildcat known as the luwak lives. The cat eats coffee berries and the coffee beans inside pass through the stomach. The beans are harvested from the cat’s dung heaps and then cleaned and roasted. Kopi Luwak sells for about $500 for a 450 g (1 lb) bag.", "length": 319
